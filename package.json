@@ -1,0 +1,25 @@
+{
+  "name": "vue-quiz-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "serve": "vue-cli-service serve",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "vue": "^3.2.45",
+    "webpack-manifest-plugin": "^5.0.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "fibers": "^5.0.3",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "vite": "^4.0.0"
+  }
+}
